@@ -12,9 +12,40 @@ html {
 *:after {
   box-sizing: inherit;
 }
+/* ------------------Start Body------------------ */
 body {
   font-size: 15px;
   font-family: 'Outfit', sans-serif;
+  background-color: var(--grayish-blue);
+}
+main{
+    margin: 85px auto;
+    width: 320px;
+    height: 497px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 1.1em;
+}
+.image-container{
+    width: 288px;
+    height: 288px;
+    background-image: url(../images/image-qr-code.png);
+    background-size: cover;
+    border-radius: 1.1em;
+}
+.description{
+    text-align: center;
+    padding: 26px 13px;
+}
+.description .title{
+    color: var(--dark-blue);
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.description .text{
+    display: block;
+    margin-top: 20px;
+    color: var(--grayish-blue);
 }
 /* ------------------Start Footer------------------ */
 .attribution {
